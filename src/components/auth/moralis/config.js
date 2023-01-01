@@ -7,7 +7,7 @@ import UD from "../WalletIcons/unstoppabledomain.png";
 import CoinBase from "../WalletIcons/coinbase-wallet-logo.png";
 import { UAuthMoralisConnector } from "@uauth/moralis";
 import CoinbaseConnector from "./coinbase/CoinbaseConnector";
-import tixHive from "images/tixhive-logo.min.svg";
+import tixHive from "images/vefi_logo.svg";
 
 export const injected = {};
 export const walletconnect = { provider: "walletconnect" };
