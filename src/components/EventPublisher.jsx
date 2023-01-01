@@ -130,7 +130,7 @@ export default function EventPublisher() {
         onClick={async () => {
           await publishEvent();
         }}
-        className="bg-brand-red disabled:bg-brand-black h-[56px] px-5 lg:px-0 lg:w-[170px] text-white text-[18px] leading-[35px] flex justify-center items-center"
+        className="bg-brand-blue disabled:bg-brand-black h-[56px] px-5 lg:px-0 lg:w-[170px] text-white text-[18px] leading-[35px] flex justify-center items-center"
       >
         Publish Now{" "}
         <FontAwesomeIcon className="ml-2" icon={solid("chevron-right")} />

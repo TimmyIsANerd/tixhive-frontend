@@ -13,7 +13,7 @@ function ErrorPage() {
 
         <div className="mt-10">
           <Link
-            className="bg-brand-red 2xl padded-btn darker-red xl:mr-[18.29px]"
+            className="bg-brand-blue 2xl padded-btn darker-red xl:mr-[18.29px]"
             to="/"
           >
             Return to Homepage

@@ -135,7 +135,7 @@ function StepOne({ handleChange, setStep }) {
             setStep(0);
           }}
           type="button"
-          className="bg-brand-red connect-wallet h-[45px] lg:h-[56px] px-3 lg:px-0 lg:w-[170px] text-white text-[15px] md:text-[18px] leading-[35px] flex justify-center items-center"
+          className="bg-brand-blue connect-wallet h-[45px] lg:h-[56px] px-3 lg:px-0 lg:w-[170px] text-white text-[15px] md:text-[18px] leading-[35px] flex justify-center items-center"
         >
           <span className="flex items-center">
             <FontAwesomeIcon
@@ -147,7 +147,7 @@ function StepOne({ handleChange, setStep }) {
         </button>
         <button
           type="submit"
-          className="bg-brand-red connect-wallet h-[45px] lg:h-[56px] px-3 lg:px-0 lg:w-[170px] text-white text-[15px] md:text-[18px] leading-[35px] flex justify-center items-center"
+          className="bg-brand-blue connect-wallet h-[45px] lg:h-[56px] px-3 lg:px-0 lg:w-[170px] text-white text-[15px] md:text-[18px] leading-[35px] flex justify-center items-center"
         >
           <span className="flex items-center">
             Continue

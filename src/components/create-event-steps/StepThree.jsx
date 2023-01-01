@@ -75,7 +75,7 @@ function StepThree({ setStep }) {
               }}
               className={`${
                 newTicket.ticket_type === 1
-                  ? "bg-brand-red"
+                  ? "bg-brand-blue"
                   : "create-event-gradient"
               } text-[20px] leading-[34.75px] text-white h-[45px] flex items-center justify-center px-3`}
             >
@@ -89,7 +89,7 @@ function StepThree({ setStep }) {
               }}
               className={`${
                 newTicket.ticket_type === 0
-                  ? "bg-brand-red"
+                  ? "bg-brand-blue"
                   : "create-event-gradient"
               } text-[20px] leading-[34.75px] text-white h-[45px] flex items-center justify-center px-3`}
             >
@@ -103,7 +103,7 @@ function StepThree({ setStep }) {
               }}
               className={`${
                 newTicket.ticket_type === 2
-                  ? "bg-brand-red"
+                  ? "bg-brand-blue"
                   : "create-event-gradient"
               } text-[20px] leading-[34.75px] text-white h-[45px] flex items-center justify-center px-3`}
             >
@@ -170,7 +170,7 @@ function StepThree({ setStep }) {
                   storeTicket(newTicket);
                 }}
                 type="button"
-                className="bg-brand-red h-[46px] md:h-[55px] px-5 lg:px-0 lg:w-[170px] text-white text-[16px] leading-[35px] flex justify-center items-center"
+                className="bg-brand-blue h-[46px] md:h-[55px] px-5 lg:px-0 lg:w-[170px] text-white text-[16px] leading-[35px] flex justify-center items-center"
               >
                 <span className="flex items-center">
                   <FontAwesomeIcon icon={solid("plus")} className="mr-[22px]" />
@@ -191,7 +191,7 @@ function StepThree({ setStep }) {
                 setShouldAddTicket(true);
               }}
               type="button"
-              className="bg-brand-red h-[46px] md:h-[55px] px-5 lg:px-0 lg:w-[170px] text-white text-[16px] leading-[35px] flex justify-center items-center"
+              className="bg-brand-blue h-[46px] md:h-[55px] px-5 lg:px-0 lg:w-[170px] text-white text-[16px] leading-[35px] flex justify-center items-center"
             >
               <span className="flex items-center">
                 Add Ticket
@@ -213,7 +213,7 @@ function StepThree({ setStep }) {
                 setStep(2);
               }}
               type="button"
-              className="bg-brand-red connect-wallet h-[46px] lg:h-[56px] px-3 lg:px-0 lg:w-[170px] text-white text-[12px] md:text-[18px] leading-[35px] flex justify-center items-center"
+              className="bg-brand-blue connect-wallet h-[46px] lg:h-[56px] px-3 lg:px-0 lg:w-[170px] text-white text-[12px] md:text-[18px] leading-[35px] flex justify-center items-center"
             >
               <span className="flex items-center">
                 <FontAwesomeIcon
@@ -228,7 +228,7 @@ function StepThree({ setStep }) {
                 setStep(4);
               }}
               type="button"
-              className="bg-brand-red connect-wallet h-[45px] lg:h-[56px] px-3 lg:px-0 lg:w-[170px] text-white text-[12px] md:text-[18px] leading-[35px] flex justify-center items-center"
+              className="bg-brand-blue connect-wallet h-[45px] lg:h-[56px] px-3 lg:px-0 lg:w-[170px] text-white text-[12px] md:text-[18px] leading-[35px] flex justify-center items-center"
             >
               <span className="flex items-center">
                 Continue

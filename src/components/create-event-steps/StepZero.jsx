@@ -84,7 +84,7 @@ function StepZero({ handleChange, setStep }) {
               }}
               className={`${
                 event.venue_type === 0
-                  ? "bg-brand-red"
+                  ? "bg-brand-blue"
                   : "create-event-gradient"
               } text-[15px] md:text-[18px] leading-[34.75px] text-white h-[45px] flex items-center justify-center px-3`}
             >
@@ -97,7 +97,7 @@ function StepZero({ handleChange, setStep }) {
               }}
               className={`${
                 event.venue_type === 1
-                  ? "bg-brand-red"
+                  ? "bg-brand-blue"
                   : "create-event-gradient"
               } text-[15px] md:text-[18px] leading-[34.75px] text-white h-[45px] flex items-center justify-center px-3`}
             >
@@ -112,7 +112,7 @@ function StepZero({ handleChange, setStep }) {
       <div className="flex justify-end mt-[10px]">
         <button
           type="submit"
-          className="bg-brand-red connect-wallet h-[45px] lg:h-[56px] px-3 lg:px-0 lg:w-[170px] text-white text-[15px] md:text-[18px] leading-[35px] flex justify-center items-center"
+          className="bg-brand-blue connect-wallet h-[45px] lg:h-[56px] px-3 lg:px-0 lg:w-[170px] text-white text-[15px] md:text-[18px] leading-[35px] flex justify-center items-center"
         >
           <span className="flex items-center">
             Continue

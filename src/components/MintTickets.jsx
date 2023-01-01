@@ -243,7 +243,7 @@ export default function MintTickets({ event, setBodyScroll }) {
               <h3 className="mint-modal-title">Get Your Tickets</h3>
               <button onClick={() => setModalOpen(false)}>
                 <FontAwesomeIcon
-                  className="text-3xl text-brand-red md:text-5xl"
+                  className="text-3xl text-brand-blue md:text-5xl"
                   icon={solid("times")}
                 />
               </button>

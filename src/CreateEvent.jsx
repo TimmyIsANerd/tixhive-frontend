@@ -68,12 +68,12 @@ function CreateEvent() {
             : currentStep === steps.length - 2 && index === steps.length - 1
             ? "py-2 lg:py-3"
             : "lg:py-0"
-        } ${index < currentStep ? "bg-brand-red lg:bg-transparent" : ""}`}
+        } ${index < currentStep ? "bg-brand-blue lg:bg-transparent" : ""}`}
         key={index}
       >
         <span
           className={`rounded-full hidden lg:flex mr-[15.5px] h-[32.22px] items-center justify-center w-[32.22px] text-[16px] ${
-            index < currentStep ? "bg-brand-red" : "bg-[#393F4A]"
+            index < currentStep ? "bg-brand-blue" : "bg-[#393F4A]"
           }`}
         >
           {index}

@@ -20,7 +20,7 @@ export default function NFTOwner({ contract, token_id }) {
       ) : (
         <div>
           Owner: {"  "}
-          <span className={"underline text-brand-red"}>
+          <span className={"underline text-brand-blue"}>
             <FontAwesomeIcon icon={solid("up-right-from-square")} />{" "}
             <a
               target={"_blank"}

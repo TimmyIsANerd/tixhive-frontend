@@ -104,7 +104,7 @@ export default function Wallet() {
                     <span>${walletUsdBalance.maticUsd}</span>
                   </div>
                   <div className="flex justify-between mt-5">
-                    <button className="bg-brand-red text padded-btn darker-red">
+                    <button className="bg-brand-blue text padded-btn darker-red">
                       Add Funds
                     </button>
                     <button className="bg-[#22262F] text padded-btn darker-red">

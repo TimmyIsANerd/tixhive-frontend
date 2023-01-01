@@ -29,7 +29,7 @@ function App() {
   const { isPolygon, switchToPolygon } = useNetworkStatus();
   const { user, isInitialized, isInitializing } = useMoralis();
   const navOpenClasses =
-    "fixed text-[14px] leading-[21px] right-0 z-[9999] pt-[20.48px] top-0 h-[399px] backdrop-blur-2xl bg-brand-red w-[195px] px-[34px]";
+    "fixed text-[14px] leading-[21px] right-0 z-[9999] pt-[20.48px] top-0 h-[399px] backdrop-blur-2xl bg-brand-blue w-[195px] px-[34px]";
   const navClasses =
     "flex transition ease-in-out flex-col lg:flex-row appearance-none lg:font-[500] lg:text-[11px] xl:text-[14.65px] lg:leading-[22.13px] gap-[32px] lg:gap-[16px] xl:gap-[21.21px] lg:items-center";
 
@@ -124,7 +124,7 @@ function App() {
                       </div>
                       <button
                         onClick={() => setNavOpen(true)}
-                        className={"lg:hidden z-50 text-brand-red text-3xl"}
+                        className={"lg:hidden z-50 text-brand-blue text-3xl"}
                       >
                         <FontAwesomeIcon icon={solid("bars")} />
                       </button>

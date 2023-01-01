@@ -48,7 +48,7 @@ export default function TicketCard({ ticket, event, image }) {
               <h3 className="mint-modal-title">Your ticket for {event.name}</h3>
               <button
                 onClick={() => setOpen(false)}
-                className={"text-brand-red"}
+                className={"text-brand-blue"}
               >
                 <FontAwesomeIcon icon={solid("times")} className={"text-2xl"} />
               </button>

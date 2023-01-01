@@ -73,7 +73,7 @@ export default function EventOverview({ rawEvent }) {
                 </h3>
                 <div className="max-w-[72px] h-2 mt-1 bg-white">
                   <div
-                    className="h-2 bg-brand-red"
+                    className="h-2 bg-brand-blue"
                     style={{
                       width: `${(event.sales / event.totalTickets) * 100}%`,
                       maxWidth: "100%",
@@ -89,7 +89,7 @@ export default function EventOverview({ rawEvent }) {
           <div className="table-cell">
             {event.saleIsActive ? (
               <div className="flex items-center">
-                <div className="h-[14px] w-[14px] rounded-full bg-brand-red"></div>
+                <div className="h-[14px] w-[14px] rounded-full bg-brand-blue"></div>
                 <h3 className="ml-3">On-Sale</h3>
               </div>
             ) : (

@@ -10,7 +10,7 @@ import WatchVideo from "./WatchVideo";
 function Footer() {
   return (
     <div className="relative z-1">
-      <section className="justify-around px-5 py-20 md:py-32 padding md:flex margin bg-brand-red">
+      <section className="justify-around px-5 py-20 md:py-32 padding md:flex margin bg-brand-blue">
         <div className="h-96 md:w-[400px]">
           <p className="header2">Hassle-free event management for everyone.</p>
           <div className="xl:flex mx-auto md:w-[400px] mt-12 md:mt-10 text">
@@ -39,28 +39,40 @@ function Footer() {
           <div className="">
             <p className="mt-16 header2 md:mt-40">Socials</p>
             <div className="flex justify-between mx-auto mt-5 xl:justify-start md:w-48 md:mx-0">
-              <a href="https://mobile.twitter.com/TixHive" className="social-icons xl:mr-[14.86px]">
+              <a
+                href="https://mobile.twitter.com/TixHive"
+                className="social-icons xl:mr-[14.86px]"
+              >
                 <img
                   src={twitter}
                   alt="twitter"
                   className="w-8 h-8 md:h-8 md:w-8 xl:w-[22px] xl:h-[18px]"
                 />
               </a>
-              <a href="https://youtube.com/channel/UCSwXfu1DAfzrpSqeo4MYtyQ" className="social-icons xl:mr-[14.86px]">
+              <a
+                href="https://youtube.com/channel/UCSwXfu1DAfzrpSqeo4MYtyQ"
+                className="social-icons xl:mr-[14.86px]"
+              >
                 <img
                   src={youtube}
                   alt="youtube"
                   className="w-8 h-8 md:h-8 md:w-8 xl:w-[17.8px] xl:h-[20.5px]"
                 />
               </a>
-              <a href="https://www.linkedin.com/company/81568150/" className="social-icons xl:mr-[14.86px]">
+              <a
+                href="https://www.linkedin.com/company/81568150/"
+                className="social-icons xl:mr-[14.86px]"
+              >
                 <img
                   src={linkedln}
                   alt="linkedin"
                   className="w-8 h-8 md:h-8 md:w-8 xl:w-[21px] xl:h-[21px]"
                 />
               </a>
-              <a href="https://www.instagram.com/p/CbgniZOquQV/?igshid=YmMyMTA2M2Y=" className="social-icons">
+              <a
+                href="https://www.instagram.com/p/CbgniZOquQV/?igshid=YmMyMTA2M2Y="
+                className="social-icons"
+              >
                 <img
                   src={instagram}
                   alt="instagram"

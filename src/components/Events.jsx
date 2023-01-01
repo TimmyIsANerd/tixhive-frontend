@@ -38,7 +38,7 @@ function Events() {
         </div>
 
         <div className="flex mt-6 justify-start flex-wrap gap-2">
-          <button className="h-[45px] shadow-sm px-5 flex items-center justify-center bg-brand-red text-white lg:text-[18px] lg:leading-[37.5px]">
+          <button className="h-[45px] shadow-sm px-5 flex items-center justify-center bg-brand-blue text-white lg:text-[18px] lg:leading-[37.5px]">
             For You
           </button>
           <button className="h-[45px] shadow-sm px-5 bg-brand-black2 flex items-center justify-center text-white lg:text-[18px] lg:leading-[37.5px]">

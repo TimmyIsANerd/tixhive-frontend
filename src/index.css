@@ -17,10 +17,10 @@
     @apply text-[10px] md:text-[14px] font-[500] leading-[25.81px] text-white;
   }
   .btn {
-    @apply bg-brand-red h-[45px] md:h-[56px] px-5 lg:px-0 lg:min-w-[170px] text-white text-[18px] leading-[35px] flex justify-center items-center rounded-lg;
+    @apply bg-brand-blue h-[45px] md:h-[56px] px-5 lg:px-0 lg:min-w-[170px] text-white text-[18px] leading-[35px] flex justify-center items-center rounded-lg;
   }
   .open-sea-btn {
-    @apply bg-transparent text-brand-red border hover:bg-gray-800 h-[45px] md:h-[56px] px-5 text-[18px] leading-[35px] flex justify-center items-center rounded-lg;
+    @apply bg-transparent text-brand-blue border hover:bg-gray-800 h-[45px] md:h-[56px] px-5 text-[18px] leading-[35px] flex justify-center items-center rounded-lg;
   }
   .social-icon {
     @apply w-[18.55px] h-[18.55px] md:w-[42px] md:h-[42px];
@@ -72,7 +72,7 @@
     @apply object-scale-down lg:object-cover lg:max-h-[290px] lg:h-auto h-[160px] md:h-[220px] w-full;
   }
   .event-card-content {
-    @apply lg:px-[33px] px-[14px] py-[6px] md:py-[12px] bg-brand-red text-white;
+    @apply lg:px-[33px] px-[14px] py-[6px] md:py-[12px] bg-brand-blue text-white;
   }
   .event-card-title {
     @apply lg:text-[25.12px] text-[10.66px] md:leading-[18px] lg:leading-[37.68px] font-medium;
@@ -106,7 +106,7 @@
   }
 
   .field-input {
-    @apply border-brand-red border-2 py-1 px-4 w-[68px] text-white text-lg md:text-xl bg-transparent;
+    @apply border-brand-blue border-2 py-1 px-4 w-[68px] text-white text-lg md:text-xl bg-transparent;
   }
 
   .form-card {
@@ -242,7 +242,7 @@
     @apply object-scale-down h-[200px] sm:h-[280px] md:h-[354px] z-[1] mb-5 lg:h-[493px] xl:h-[632px] lg:mb-[26px];
   }
   .EventsPage__search__bar {
-    @apply bg-brand-red w-full pl-4 pr-4 py-3 font-poppins text-white lg:max-w-[873px] xl:max-w-[1086px] left-0 right-0 z-0 flex flex-col md:flex-row md:items-center md:pl-[36px] md:py-[22px] md:pr-[17px] -bottom-[3.8rem] lg:absolute mx-auto rounded-[8px] lg:h-[120px];
+    @apply bg-brand-blue w-full pl-4 pr-4 py-3 font-poppins text-white lg:max-w-[873px] xl:max-w-[1086px] left-0 right-0 z-0 flex flex-col md:flex-row md:items-center md:pl-[36px] md:py-[22px] md:pr-[17px] -bottom-[3.8rem] lg:absolute mx-auto rounded-[8px] lg:h-[120px];
   }
   .EventsPage__search__bar div[field="true"] {
     @apply mb-5 md:mb-0 md:mr-[84px];

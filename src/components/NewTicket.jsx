@@ -92,7 +92,7 @@ export default function NewTicket({ ticket }) {
               }}
               className={`${
                 ticket.ticket_type === 1
-                  ? "bg-brand-red"
+                  ? "bg-brand-blue"
                   : "create-event-gradient"
               } text-[20px] leading-[34.75px] text-white h-[45px] flex items-center justify-center px-3`}
             >
@@ -106,7 +106,7 @@ export default function NewTicket({ ticket }) {
               }}
               className={`${
                 ticket.ticket_type === 0
-                  ? "bg-brand-red"
+                  ? "bg-brand-blue"
                   : "create-event-gradient"
               } text-[20px] leading-[34.75px] text-white h-[45px] flex items-center justify-center px-3`}
             >
@@ -120,7 +120,7 @@ export default function NewTicket({ ticket }) {
               }}
               className={`${
                 ticket.ticket_type === 2
-                  ? "bg-brand-red"
+                  ? "bg-brand-blue"
                   : "create-event-gradient"
               } text-[20px] leading-[34.75px] text-white h-[45px] flex items-center justify-center px-3`}
             >
