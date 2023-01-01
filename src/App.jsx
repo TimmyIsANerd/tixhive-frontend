@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
 import { useState } from "react";
 import TicketInfoPage from "./components/TicketInfoPage";
-import blocTixLogo from "images/tixhive-logo.min.svg";
+import blocTixLogo from "images/vefi_logo.svg";
 import { useRecoilValue } from "recoil";
 import { walletCryptoBalanceState } from "recoil/atoms/wallet";
 import { convertBalanceToEther } from "utils/web3-utils";
@@ -50,9 +50,6 @@ function App() {
                           className="h-[22.74px] lg:h-[45px] xl:h-[50px]"
                           alt="TixHive Logo"
                         />
-                        <h3 className="lg:mr-[40px] ml-2 hidden md:block xl:mr-[66.17px] lg:font-[500] lg:text-[22.71px] lg:leading-[28.62px]">
-                          TixHive
-                        </h3>
                       </Link>
                       <ul
                         className={`${
