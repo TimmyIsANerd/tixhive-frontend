@@ -5,7 +5,7 @@ import truncateEthAddress from "truncate-eth-address";
 import Modal from "../Modal";
 import { connectors, getWallets, uauth } from "./config";
 import { solid } from "@fortawesome/fontawesome-svg-core/import.macro";
-import blocTix from "images/tixhive-logo.min.svg";
+import blocTix from "images/vefi_logo.svg";
 import LoopingImages from "components/LoopingImages";
 import useNetworkStatus from "hooks/useNetworkStatus";
 import { useRecoilState } from "recoil";
